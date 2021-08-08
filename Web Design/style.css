@@ -1,0 +1,100 @@
+
+header{
+    padding: 20px 30px;
+    margin: auto;
+    background: url(p2.png);
+    background-color: rgb(255, 255, 255);
+
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+    line-height: 1;
+    font-family: 'Caveat', cursive;
+    color: rgb(5, 5, 5);
+} 
+
+  h2 {
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+
+h1, h2 {
+    font-weight: 400;
+    margin: 0;
+  }
+
+ 
+nav ul li {
+    
+    display: inline-block;
+    margin: 16px;
+}  
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+  } 
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(124, 122, 122);
+    border-radius: 10px;
+    
+    
+}
+nav ul li a:hover {
+	background: rgba(72, 50, 200, 0.315);
+}
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background:url(pho.jpg);
+    color: rgb(199, 196, 196);
+    text-align: left;
+    
+    
+    
+}
+#pageContent {
+    max-width: 1000px;
+    margin: auto;
+    border: none;
+    
+}
+
+
+footer{
+	background: #fbfbfb;
+	text-align: center;
+    padding: 20px 30px; 
+    margin: auto; 
+    color: #000;
+   
+}
+@media screen and (max-width: 1000px) {
+	body > section {
+		padding: 30px 20px;
+	}
+}
+@media screen and (max-width: 600px) {
+	main {
+		float: none;
+		width: 100%;
+	}
+}
+
+
